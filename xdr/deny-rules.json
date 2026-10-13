@@ -304,5 +304,86 @@
     "expiresAt": "2026-10-18T00:00:00.000Z",
     "reason": "서명 없는 새 서비스 등록 및 임시 폴더 실행 파일 참조",
     "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_pv-01",
+    "alertId": "pv-01",
+    "ip": "203.0.113.11",
+    "user": "user01",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "평범한 계정의 비인가 관리자 그룹 추가 및 반복 재등록",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_pv-02",
+    "alertId": "pv-02",
+    "ip": "203.0.113.11",
+    "user": "user01",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "권한 상승 직후 처음 보는 관리자 명령 실행 및 타 계정 사칭",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_pv-03",
+    "alertId": "pv-03",
+    "ip": "198.51.100.11",
+    "user": "user02",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "업무 시간 외 및 낯선 주소에서의 특권 명령 및 권한 변경",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_pv-04",
+    "alertId": "pv-04",
+    "ip": "192.0.2.11",
+    "user": "user03",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "권한 상승 직후 처음 보는 관리자 명령 실행 및 타 계정 사칭",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_pv-05",
+    "alertId": "pv-05",
+    "ip": "203.0.113.17",
+    "user": "user04",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "평범한 계정의 비인가 관리자 그룹 추가 및 반복 재등록",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_pv-06",
+    "alertId": "pv-06",
+    "ip": "198.51.100.17",
+    "user": "user05",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "평범한 계정의 비인가 관리자 그룹 추가 및 반복 재등록",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_pv-07",
+    "alertId": "pv-07",
+    "ip": "192.0.2.17",
+    "user": "user06",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "업무 시간 외 및 낯선 주소에서의 특권 명령 및 권한 변경",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_pv-08",
+    "alertId": "pv-08",
+    "ip": "203.0.113.27",
+    "user": "user07",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "권한 상승 직후 처음 보는 관리자 명령 실행 및 타 계정 사칭",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_pv-09",
+    "alertId": "pv-09",
+    "ip": "198.51.100.27",
+    "user": "user08",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "평범한 계정의 비인가 관리자 그룹 추가 및 반복 재등록",
+    "action": "deny"
   }
 ]
