@@ -385,5 +385,95 @@
     "expiresAt": "2026-10-18T00:00:00.000Z",
     "reason": "평범한 계정의 비인가 관리자 그룹 추가 및 반복 재등록",
     "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ex-01",
+    "alertId": "ex-01",
+    "ip": "203.0.113.50",
+    "user": "user01",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "처음 보는 외부 목적지로의 대량 자료 및 압축 파일 전송",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ex-02",
+    "alertId": "ex-02",
+    "ip": "198.51.100.40",
+    "user": "user01",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "업무 시간 외 및 비인가 포트를 통한 비정상 데이터 반출",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ex-03",
+    "alertId": "ex-03",
+    "ip": "203.0.113.50",
+    "user": "user02",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "명령 제어 통로를 악용한 대용량 데이터 및 자료실 복사",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ex-04",
+    "alertId": "ex-04",
+    "ip": "198.51.100.40",
+    "user": "user03",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "업무 시간 외 및 비인가 포트를 통한 비정상 데이터 반출",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ex-05",
+    "alertId": "ex-05",
+    "ip": "203.0.113.55",
+    "user": "user04",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "명령 제어 통로를 악용한 대용량 데이터 및 자료실 복사",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ex-06",
+    "alertId": "ex-06",
+    "ip": "192.0.2.90",
+    "user": "user05",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "업무 시간 외 및 비인가 포트를 통한 비정상 데이터 반출",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ex-07",
+    "alertId": "ex-07",
+    "ip": "198.51.100.45",
+    "user": "user06",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "처음 보는 외부 목적지로의 대량 자료 및 압축 파일 전송",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ex-08",
+    "alertId": "ex-08",
+    "ip": "203.0.113.60",
+    "user": "user07",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "명령 제어 통로를 악용한 대용량 데이터 및 자료실 복사",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ex-09",
+    "alertId": "ex-09",
+    "ip": "203.0.113.61",
+    "user": "user08",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "명령 제어 통로를 악용한 대용량 데이터 및 자료실 복사",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ex-10",
+    "alertId": "ex-10",
+    "ip": "198.51.100.46",
+    "user": "user01",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "처음 보는 외부 목적지로의 대량 자료 및 압축 파일 전송",
+    "action": "deny"
   }
 ]
