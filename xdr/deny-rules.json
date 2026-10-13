@@ -232,5 +232,77 @@
     "expiresAt": "2026-10-18T00:00:00.000Z",
     "reason": "요청 머리글 또는 인자 안의 JNDI 원격 조회 구문",
     "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ps-01",
+    "alertId": "ps-01",
+    "ip": "203.0.113.12",
+    "user": "user01",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "서명 없는 새 서비스 등록 및 임시 폴더 실행 파일 참조",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ps-02",
+    "alertId": "ps-02",
+    "ip": "203.0.113.12",
+    "user": "user01",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "비인가 예약 작업 등록 및 낯선 실행 경로",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ps-03",
+    "alertId": "ps-03",
+    "ip": "198.51.100.12",
+    "user": "user02",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "시작 프로그램 폴더 임의 추가 및 이중 지속성 유지",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ps-04",
+    "alertId": "ps-04",
+    "ip": "192.0.2.12",
+    "user": "user03",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "서명 없는 새 서비스 등록 및 임시 폴더 실행 파일 참조",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ps-05",
+    "alertId": "ps-05",
+    "ip": "203.0.113.19",
+    "user": "user04",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "비인가 예약 작업 등록 및 낯선 실행 경로",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ps-06",
+    "alertId": "ps-06",
+    "ip": "198.51.100.19",
+    "user": "user05",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "서명 없는 새 서비스 등록 및 임시 폴더 실행 파일 참조",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ps-07",
+    "alertId": "ps-07",
+    "ip": "192.0.2.19",
+    "user": "user06",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "시작 프로그램 폴더 임의 추가 및 이중 지속성 유지",
+    "action": "deny"
+  },
+  {
+    "ruleId": "xdr_deny_ps-08",
+    "alertId": "ps-08",
+    "ip": "203.0.113.33",
+    "user": "user07",
+    "expiresAt": "2026-10-18T00:00:00.000Z",
+    "reason": "서명 없는 새 서비스 등록 및 임시 폴더 실행 파일 참조",
+    "action": "deny"
   }
 ]
