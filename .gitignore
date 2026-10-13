@@ -9,3 +9,6 @@ docs/02_system_architecture.md
 docs/03_data_schema.md
 portfolio/
 schemas/
+
+.vercel
+.env*

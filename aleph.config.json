@@ -1,7 +1,7 @@
 {
   "step": 8,
-  "repoUrl": "https://github.com/dldaudlee36/bring-choi-bujang-back",
-  "publicAppUrl": "https://rescue-choi-bujang-pc.vercel.app",
+  "repoUrl": "https://github.com/dldaudlee36/ZTNA_Decider",
+  "publicAppUrl": "https://ztna-decider.vercel.app",
   "sampleMarker": null,
   "judgeIssuer": "https://aleph-judge-production.up.railway.app/defense/judge",
   "identityProvider": {
